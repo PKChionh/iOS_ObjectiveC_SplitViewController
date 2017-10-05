@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  LeftViewController.h
 //  MySplitView
 //
 //  Created by Dev on 5/10/17.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface LeftViewController : UITableViewController
 
+@property (nonatomic, strong) NSMutableArray *animals;
 
 @end
-

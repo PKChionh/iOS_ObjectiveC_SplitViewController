@@ -9,10 +9,11 @@
 /* Begin PBXBuildFile section */
 		D7B75EC01F85D24600DB704D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B75EBF1F85D24600DB704D /* main.m */; };
 		D7B75EC31F85D24600DB704D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B75EC21F85D24600DB704D /* AppDelegate.m */; };
-		D7B75EC61F85D24600DB704D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B75EC51F85D24600DB704D /* ViewController.m */; };
 		D7B75EC91F85D24600DB704D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7B75EC71F85D24600DB704D /* Main.storyboard */; };
 		D7B75ECB1F85D24600DB704D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7B75ECA1F85D24600DB704D /* Assets.xcassets */; };
 		D7B75ECE1F85D24600DB704D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7B75ECC1F85D24600DB704D /* LaunchScreen.storyboard */; };
+		D7B75ED71F85D35300DB704D /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B75ED61F85D35300DB704D /* LeftViewController.m */; };
+		D7B75EDA1F85DB8700DB704D /* RightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B75ED91F85DB8700DB704D /* RightViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +21,14 @@
 		D7B75EBF1F85D24600DB704D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D7B75EC11F85D24600DB704D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D7B75EC21F85D24600DB704D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D7B75EC41F85D24600DB704D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D7B75EC51F85D24600DB704D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D7B75EC81F85D24600DB704D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D7B75ECA1F85D24600DB704D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7B75ECD1F85D24600DB704D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7B75ECF1F85D24600DB704D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7B75ED51F85D35300DB704D /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		D7B75ED61F85D35300DB704D /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		D7B75ED81F85DB8700DB704D /* RightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightViewController.h; sourceTree = "<group>"; };
+		D7B75ED91F85DB8700DB704D /* RightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,13 +63,15 @@
 			children = (
 				D7B75EC11F85D24600DB704D /* AppDelegate.h */,
 				D7B75EC21F85D24600DB704D /* AppDelegate.m */,
-				D7B75EC41F85D24600DB704D /* ViewController.h */,
-				D7B75EC51F85D24600DB704D /* ViewController.m */,
 				D7B75EC71F85D24600DB704D /* Main.storyboard */,
 				D7B75ECA1F85D24600DB704D /* Assets.xcassets */,
 				D7B75ECC1F85D24600DB704D /* LaunchScreen.storyboard */,
 				D7B75ECF1F85D24600DB704D /* Info.plist */,
 				D7B75EBE1F85D24600DB704D /* Supporting Files */,
+				D7B75ED51F85D35300DB704D /* LeftViewController.h */,
+				D7B75ED61F85D35300DB704D /* LeftViewController.m */,
+				D7B75ED81F85DB8700DB704D /* RightViewController.h */,
+				D7B75ED91F85DB8700DB704D /* RightViewController.m */,
 			);
 			path = MySplitView;
 			sourceTree = "<group>";
@@ -150,7 +155,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7B75EC61F85D24600DB704D /* ViewController.m in Sources */,
+				D7B75ED71F85D35300DB704D /* LeftViewController.m in Sources */,
+				D7B75EDA1F85DB8700DB704D /* RightViewController.m in Sources */,
 				D7B75EC31F85D24600DB704D /* AppDelegate.m in Sources */,
 				D7B75EC01F85D24600DB704D /* main.m in Sources */,
 			);
