@@ -1,4 +1,4 @@
-# [SplitViewController (iOS 9 onwards, Obj-C)](https://github.com/PKChionh/iOS_ObjectiveC_SplitViewController)
+# [SplitViewController](https://github.com/PKChionh/iOS_ObjectiveC_SplitViewController)
 Create a SplitViewController on iOS 9 (Objective C)
 
 This is an example app to create a SplitViewController on iOS devices.
